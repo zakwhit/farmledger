@@ -134,6 +134,11 @@ Now the orderer can generate genesis block and channel tx files by collecting ce
 ./network.sh -m generate-orderer
 ```
 
+Change permissions of www/artifacts folder:
+```bash
+sudo chown -R <user>:<user> www/artifacts
+```
+
 And start the orderer:
 ```bash
 ./network.sh -m up-orderer
