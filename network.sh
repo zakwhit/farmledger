@@ -4,12 +4,12 @@ starttime=$(date +%s)
 
 # defaults; export these variables before executing this script
 : ${DOMAIN:="farmchain.ca"}
-: ${IP_ORDERER:="162.253.55.172"}
+: ${IP_ORDERER:="162.253.55.134"}
 : ${ORG1:="a"}
 : ${ORG2:="b"}
 : ${ORG3:="c"}
-: ${IP1:="162.253.55.133"}
-: ${IP2:="162.253.55.145"}
+: ${IP1:="162.253.55.231"}
+: ${IP2:="162.253.55.172"}
 : ${IP3:="162.253.55.234"}
 
 WGET_OPTS="--verbose -N"
